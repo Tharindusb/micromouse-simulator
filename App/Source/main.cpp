@@ -1,7 +1,6 @@
-#include <iosteam>
+#include "Core/Core.h"
 
 int main()
 {
-    std::cout << "Hello world";
-    return 0;
+	Core::PrintHelloWorld();
 }
