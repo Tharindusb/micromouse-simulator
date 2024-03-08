@@ -37,4 +37,4 @@ def runConan(build_type):
 if __name__ == "__main__":
     # main()
     # runConan('Debug')
-    subprocess.run(("./Vendor/bin/windows/premake5.exe","vs2022"))
+    subprocess.run("./Vendor/Binaries/Premake/Windows/premake5.exe","vs2022")
